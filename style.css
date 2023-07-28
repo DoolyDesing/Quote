@@ -1,0 +1,35 @@
+body {
+    background: #212529;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button:hover {
+    transition:  0.3s;
+    border: 1.5px solid #0DCAF0;
+    background: #0DCAF0;
+    color: #212529;
+}
+
+button {
+    border-radius: 10px;
+    border: 1.5px solid #0DCAF0;
+    background: #212529;
+    color: white;
+}
+
+button {
+    padding: 10px 25px 10px 25px ;
+    /*Шрифт*/
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
